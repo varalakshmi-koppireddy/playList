@@ -22,14 +22,15 @@ export const NameSongContainer = styled.div`
   align-items: center;
   height: 80px;
 `
-export const NameHeading = styled.h1`
+export const NameHeading = styled.p`
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 22px;
   color: #ffffff;
+  font-weight: 500;
 `
 export const SongDes = styled.p`
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 18px;
   color: #3b82f6;
   font-weight: 500;
 `
@@ -39,7 +40,7 @@ export const DurationIconCon = styled.div`
 
 export const Duration = styled.p`
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 18px;
   color: #ffffff;
   font-weight: 500;
 `

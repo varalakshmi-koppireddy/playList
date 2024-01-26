@@ -76,10 +76,11 @@ export const NoPlayListContainer = styled.div`
   width: 100%;
 `
 
-export const NotFoundText = styled.h1`
+export const NotFoundText = styled.p`
   color: #ffffff;
   font-family: 'Roboto';
   font-size: 40px;
+  font-weight: 500;
 `
 export const PlaySongsList = styled.ul`
   list-style-type: none;

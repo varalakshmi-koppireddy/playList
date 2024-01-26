@@ -151,7 +151,7 @@ class PlaySongs extends Component {
             <PlaySongsList>
               {searchResults.map(eachItem => (
                 <PlaySongItem
-                  key={eachItem}
+                  key={eachItem.id}
                   playSongDetails={eachItem}
                   onDeleteIcon={this.onDeleteIcon}
                 />
